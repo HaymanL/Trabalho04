@@ -44,7 +44,7 @@ velInimigo2 = 5
 VelInimigo2 = 8
 velLaser = 20
 pontuacao = 0
-vida = 100
+vida = 50
 lose = 0
 disparos = [] 
 inimigos = [] 
@@ -98,7 +98,7 @@ while True:
         if inimigo.right < 0:
             inimigos.remove(inimigo)
             vida -= 2
-            lose += 1
+            lose += 5
             if vida < 0:
                 vida = 0
 
