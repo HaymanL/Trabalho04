@@ -1,7 +1,7 @@
 import pygame
 import random
 import time
-# Versão teste
+# Versão de teste
 # iniciando o pygame
 pygame.init()
 # Criando a tela
