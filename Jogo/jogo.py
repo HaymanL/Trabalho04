@@ -31,6 +31,13 @@ imgInimigo3 = pygame.image.load("Pictures/monster3.png")
 imgInimigo3 = pygame.transform.scale(imgInimigo3, (50, 50))
 rectInimigo3 = imgInimigo3.get_rect()
 
+pygame.mixer.music.load("Soundtrack/track.mp3")
+pygame.mixer.music.play(loops = -1)
+pygame.mixer.music.set_volume(0.2)
+
+sfxShoot = pygame.mixer.Sound("Soundtrack/shoot.wav")
+sfxShoot.set_volume(1.0)
+
 velNave = 7
 velInimigo = 3
 velInimigo2 = 5
